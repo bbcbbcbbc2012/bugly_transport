@@ -1,0 +1,17 @@
+Target dependency graph (7 targets)
+Target 'Pods-bugly_transport_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Expecta' in project 'Pods'
+➜ Explicit dependency on target 'Expecta+Snapshots' in project 'Pods'
+➜ Explicit dependency on target 'FBSnapshotTestCase' in project 'Pods'
+➜ Explicit dependency on target 'Pods-bugly_transport_Example' in project 'Pods'
+➜ Explicit dependency on target 'Specta' in project 'Pods'
+Target 'Pods-bugly_transport_Example' in project 'Pods'
+➜ Explicit dependency on target 'bugly_transport' in project 'Pods'
+Target 'bugly_transport' in project 'Pods' (no dependencies)
+Target 'Expecta+Snapshots' in project 'Pods'
+➜ Explicit dependency on target 'Expecta' in project 'Pods'
+➜ Explicit dependency on target 'FBSnapshotTestCase' in project 'Pods'
+➜ Explicit dependency on target 'Specta' in project 'Pods'
+Target 'Specta' in project 'Pods' (no dependencies)
+Target 'FBSnapshotTestCase' in project 'Pods' (no dependencies)
+Target 'Expecta' in project 'Pods' (no dependencies)

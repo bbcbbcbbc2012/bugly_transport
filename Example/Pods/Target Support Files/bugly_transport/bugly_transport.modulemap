@@ -1,0 +1,6 @@
+framework module bugly_transport {
+  umbrella header "bugly_transport-umbrella.h"
+
+  export *
+  module * { export * }
+}

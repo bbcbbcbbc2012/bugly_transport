@@ -1,0 +1,5 @@
+ extern const unsigned char bugly_transportVersionString[];
+ extern const double bugly_transportVersionNumber;
+
+ const unsigned char bugly_transportVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:bugly_transport  PROJECT:Pods-1" "\n";
+ const double bugly_transportVersionNumber __attribute__ ((used)) = (double)1.;

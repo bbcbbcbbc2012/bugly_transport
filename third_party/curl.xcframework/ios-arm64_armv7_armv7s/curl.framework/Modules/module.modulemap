@@ -1,0 +1,6 @@
+framework module curl.framework {
+  umbrella header "curl.framework.h"
+
+  export *
+  module * { export * }
+}

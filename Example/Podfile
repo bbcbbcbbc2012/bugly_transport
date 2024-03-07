@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'bugly_transport_Example' do
+  pod 'bugly_transport', :path => '../'
+
+  target 'bugly_transport_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
