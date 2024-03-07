@@ -11,92 +11,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/bugly_data_mode.h</key>
+		<key>Headers/bugly_option.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qO/YtcGVVSm47RfiT8IdGHmZzb4=
+			Ezm1Yz3hlxtKRXvUNt6tElBcilg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fTS0oIRT6Wg+co9ATPJqO1NsEAGyTmHNDIbzaU5YU2w=
+			vUPl3YnyA+Itluxcesec36QHvF/iD4n6HO1x8mQuxag=
 			</data>
 		</dict>
-		<key>Headers/bugly_report_common_codec.h</key>
+		<key>Headers/bugly_report_data_mode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w6LIDg/W0+iz/yBlVShm1M9M1Ds=
+			kH3o7uyVTw85v2W937dj/sP74SI=
 			</data>
 			<key>hash2</key>
 			<data>
-			58WY/+TBddpTZVjPwhQXHw9FdWIP3MIvWC2v/7kjRFI=
-			</data>
-		</dict>
-		<key>Headers/bugly_report_dau_codec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1DZHJuWF11MV1tUNVgmegswKdQA=
-			</data>
-			<key>hash2</key>
-			<data>
-			50kN/6GjA1sLqtVC4B4cacssPvlufIgClh7xmeQA/bI=
-			</data>
-		</dict>
-		<key>Headers/bugly_report_exception_codec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hGIVI68redFxPbFM9AH6GxF1csg=
-			</data>
-			<key>hash2</key>
-			<data>
-			m7bRYYGtGqoSWQIYIUqcisHfdHyIFrZSGFkemP721ko=
-			</data>
-		</dict>
-		<key>Headers/bugly_report_jank_stack_codec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Headers/bugly_report_launch_metric_codec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Headers/bugly_report_looper_metric_codec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			coAjhUdrd8vDubDdKv3UnJjqE5O5QG+q0FtGsy8ipqE=
 			</data>
 		</dict>
 		<key>Headers/bugly_transport.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IBPu8oazzJyEQuojLVAJBOP8JWg=
+			NG5f38nZ9uG7GGzPpo+X/Ch9Chk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eCBmT5WVAN98lhQ7axU4eBspLxwHW3eY4KroU+kkaBI=
+			K0ZOVdQ7HeoB2vHvDUJpRM/O8KUP5NUYmoREEIMK9Js=
+			</data>
+		</dict>
+		<key>Headers/bugly_utils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sqy5afy221T3LyMIhoTxRO0UyF0=
+			</data>
+			<key>hash2</key>
+			<data>
+			IbuFi9qjGlkr2Io33iJpwSoeio3jNjxOTeTwo7SINAs=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

@@ -10,23 +10,10 @@
 #include <iostream>
 #include <string>
 #include <bugly_transport/bugly_transport.h>
-#include <Foundation/Foundation.h>
+#include <bugly_transport/bugly_utils.h>
 
 
 using namespace bugly;
-
-std::string darwinMakeUUID() {
-    char uuid[40];
-    memset(uuid, 0, sizeof(uuid));
-
-    CFUUIDRef uuid_object = CFUUIDCreate(kCFAllocatorDefault);
-    CFStringRef uuid_cfstring = CFUUIDCreateString(kCFAllocatorDefault, uuid_object);
-    CFStringGetCString(uuid_cfstring, uuid, sizeof(uuid), kCFStringEncodingUTF8);
-    CFRelease(uuid_object);
-    CFRelease(uuid_cfstring);
-    uuid[39] = 0;
-    return uuid;
-}
 
 BuglyAppInfo getAppInfo(const char* appName)
 {
@@ -94,8 +81,8 @@ BuglyOption getBuglyOption(const char* appName)
     option.appChannel = "";
     option.enableReport = true;
     option.buglyVersion = "bugly_transport@0.0.1";
-    option.launchId = darwinMakeUUID();
-    option.clientIdentity = darwinMakeUUID();
+    option.launchId = makeUUID();
+    option.clientIdentity = makeUUID();
     return option;
 }
 
@@ -112,7 +99,7 @@ BuglyTransport::CppDataInferfaceType getExceptionInfo()
     exception["sessionTimestamp"] = "1705395949187";
 
     exception["isRunInFront"] = "1";
-    exception["clientIdentify"] = darwinMakeUUID();
+    exception["clientIdentify"] = makeUUID();
     return exception;
 }
 
@@ -129,7 +116,7 @@ void test_bugly_transport()
 
     BuglyTransport::CppDataInferfaceType dau;
     dau["first_report"] = "1";
-    dau["clientIdentify"] = darwinMakeUUID();
+    dau["clientIdentify"] = makeUUID();
     transport.reportDau(dau);
 
     BuglyTransport::CppDataInferfaceType exception = getExceptionInfo();
