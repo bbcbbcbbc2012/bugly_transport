@@ -38,6 +38,7 @@ struct BuglyOption
     std::string                     launchId;
 
     std::string                     deviceId;
+    std::string                     platform;
 };
 
 }
